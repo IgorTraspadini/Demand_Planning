@@ -28,10 +28,28 @@ The level of a time series describes the average value of the series.
 ![Level](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/b7d9def9-c854-461a-ab8c-38cbdefe64fc)
 
 ## Understanding trend in a time series
+Trend is simply the change in level from on period to the next in a time series.
+
+- "Graph 1" there are no trend.
+- "Graph 2" upward by 77% trend per year.
+- "Graph 3" downward trend of 4% every 10 years.
+- 
+![Level](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/b7d9def9-c854-461a-ab8c-38cbdefe64fc)
 
 ## Understanding seasonality in a time series
+Basically by seasonality we mean a time series fluctuates consistently at regular intervals.
+
+So if you look at this time series plot, you see a peak every fourth quarter. Every fourth quarter you see a peak. 
+
+<img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/572d8f8e-837e-408e-a237-28c0f09a4340" width=50%>
 
 ## Understanding noise in a time series
+Noise simply refers to random fluctuations in the time series about its typical pattern, but sometimes it's hard to identify the typical pattern.
+
+- In "Graph 1" you can see there is fairly wide variation in the values about the dotted line. 
+- In "Graph 2" in the early years, years one through eight, there is very little variation or noise about the pattern of the trendline, but you'll see in year 10 there is a lot of variation about the line. 
+
+![Noise](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/ef980ece-967e-487d-b9a7-4236ede84a54)
 
 
 
