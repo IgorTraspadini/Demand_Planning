@@ -51,7 +51,15 @@ Noise simply refers to random fluctuations in the time series about its typical 
 
 ![Noise](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/ef980ece-967e-487d-b9a7-4236ede84a54)
 
+## Moving average
+A moving average chart can help you better understand trend and level and smooth out what's going on with the time series, and also eliminate the influence of seasonal variation.
+It eliminates seasonality because if you have a four-quarter moving average, you have one quarter from each quarter of the year and so none of the quarters of the year will have an undue influence on that chart.
 
+Data:
+- Quartely Data: create a four-quarter moving average chart, including the current quarter.
+- Monthly Data: create a twelve-month moving average chart, including the current month.
+
+![moving average](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/451a795d-2f71-40bb-abff-ed5c5ffab209)
 
 
 
