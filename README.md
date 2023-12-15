@@ -18,7 +18,7 @@ Some examples of time series are shown in bellow:
 </tr>
 </table>
 
-## Understanding level in a time series
+### Understanding level in a time series
 The level of a time series describes the average value of the series.
 
 - "Graph 1" you don't really see a change in level, there appears to be a steady level.
@@ -27,7 +27,7 @@ The level of a time series describes the average value of the series.
 
 ![Level](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/b7d9def9-c854-461a-ab8c-38cbdefe64fc)
 
-## Understanding trend in a time series
+### Understanding trend in a time series
 Trend is simply the change in level from on period to the next in a time series.
 
 - "Graph 1" there are no trend.
@@ -36,14 +36,14 @@ Trend is simply the change in level from on period to the next in a time series.
 - 
 ![Level](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/b7d9def9-c854-461a-ab8c-38cbdefe64fc)
 
-## Understanding seasonality in a time series
+### Understanding seasonality in a time series
 Basically by seasonality we mean a time series fluctuates consistently at regular intervals.
 
 So if you look at this time series plot, you see a peak every fourth quarter. Every fourth quarter you see a peak. 
 
 <img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/572d8f8e-837e-408e-a237-28c0f09a4340" width=50%>
 
-## Understanding noise in a time series
+### Understanding noise in a time series
 Noise simply refers to random fluctuations in the time series about its typical pattern, but sometimes it's hard to identify the typical pattern.
 
 - In "Graph 1" you can see there is fairly wide variation in the values about the dotted line. 
@@ -51,7 +51,7 @@ Noise simply refers to random fluctuations in the time series about its typical 
 
 ![Noise](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/ef980ece-967e-487d-b9a7-4236ede84a54)
 
-## Moving average
+### Moving average
 A moving average chart can help you better understand trend and level and smooth out what's going on with the time series, and also eliminate the influence of seasonal variation.
 It eliminates seasonality because if you have a four-quarter moving average, you have one quarter from each quarter of the year and so none of the quarters of the year will have an undue influence on that chart.
 
@@ -61,5 +61,5 @@ Data:
 
 ![moving average](https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/451a795d-2f71-40bb-abff-ed5c5ffab209)
 
-
+## 
 
