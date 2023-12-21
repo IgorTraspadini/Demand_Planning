@@ -87,4 +87,8 @@ For all three of these measures of forecast accuracy, the MAD, the MAPE, and the
 
 <img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/a902aacd-1bb3-424d-bb84-488fc7ba271a" width=50%>
 
+### Forecast Bias
+When you think of the word bais, you probably think of the word prejudice. But essentially, bias in the forecasting world means your forecasts are either systematically too high, or systematically too low. So how do we determine if forecasts are biased? Bais is, are you sort of off too far in one direction or the other? Basically you compute, for every observation, the actual value divided by the forecast minus one. And if you average those numbers and they're close to zero, that would mean that your forecasts are not biased upward or downward. 
+In forecast two they're all negative. What does that mean? The actual sales was less than the forecast in every case. Some of the time, actual sales should be higher than the forecast, and some of the time actual sales should be lower than a forecast. You can see we have more serious bias in forecast two than we have in forecast one.
 
+<img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/94898153-55f0-4965-a1fd-aeaa9ade55d9" width=50%>
