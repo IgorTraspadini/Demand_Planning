@@ -81,3 +81,10 @@ Well this is trickier than you might think. So let's look at the forecast MAD fo
 
 <img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/88cf2297-0dad-4ba5-8ead-ebaad416e60e" width=50%>
 
+### Sum of Squared Errors (SSE)
+The definition is very simple, you simply compute the error for each observation which is actual minus predicted or forecasted, and then you square those errors and add them up. The purpose of squaring the errors is basically negative errors count the same as positive errors and don't cancel out. 
+For all three of these measures of forecast accuracy, the MAD, the MAPE, and the SSE, lower is better, higher is worse.
+
+<img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/a902aacd-1bb3-424d-bb84-488fc7ba271a" width=50%>
+
+
