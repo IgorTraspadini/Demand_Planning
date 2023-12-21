@@ -75,4 +75,9 @@ If you get average of the erro (sales - forecast) the positive errors and the ne
 <img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/91c79b69-94c2-490f-8d7b-87bbbac13ca8" width=50%>
 
 ### Mean Absolute Percentage Error (MAPE)
+Percentage error is the actual value of the series minus the forecasted value, divided by the actual value, and then the MAPE is the average of the absolute percentage errors. 
+Now the question is, which of these series are doing a better job of forecasting? The forecast from series one or the forecast from series two in terms of accuracy. 
+Well this is trickier than you might think. So let's look at the forecast MAD for each series. The MEAN absolute deviation for series one is three units. We're off by an average of three units. The MEAN absolute deviation for the forecast for series two is ten. So we're off by an average of ten units. So based on MAD, it looks like series two had worse forecast. Or series one had better forecast. But that's probably not really the way things are. Let's look at the percentage error, which is what most people in the business world use to measure their forecasts. So if you look at series one, we're off around ten percent per month. If you look at series two we're off about three percent per month. So we're much better off from percentage error standpoint in forecasting series two. Because you have to look at the size of your error, relative to what your forecasting. And you can see from series two we're up by only three percent, which is much better than ten percent. Even though the absolute average error is higher, the percentage error is lower.
+
+<img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/88cf2297-0dad-4ba5-8ead-ebaad416e60e" width=50%>
 
