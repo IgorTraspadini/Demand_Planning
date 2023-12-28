@@ -29,3 +29,13 @@ When you think of the word bais, you probably think of the word prejudice. But e
 In forecast two they're all negative. What does that mean? The actual sales was less than the forecast in every case. Some of the time, actual sales should be higher than the forecast, and some of the time actual sales should be lower than a forecast. You can see we have more serious bias in forecast two than we have in forecast one.
 
 <img src="https://github.com/IgorTraspadini/Demand_Planning/assets/126266157/94898153-55f0-4965-a1fd-aeaa9ade55d9" width=50%>
+
+### Determining significance
+The question naturally presents itself: which, if any, of these biases are statistically, significantly different from zero? The way statisticians answer this question is they compute a 95 percent confidence interval for the quantity of interest, in this case bias.
+If zero is in the 95 percent confidence interval, the bias is not significant. If zero is not in the 95 percent confidence interval the bias is significant.
+In order to compute these confidence intervals we need the standard deviation of the biases. 
+Now we can use these formulas to compute the 95 percent confidence interval for the bias for each of our two forecasts. 
+So this means we're 95 percent sure the mean bias for forecast one is between -15 and 37 percent. That includes zero, so the bias is not significant. In other words, we really can't conclude that this bias indicates something that's statistically significantly different from a zero bias. 
+We're 95 percent sure that for forecast two the mean bias is between -14 and -29 percent. That doesn't include zero, so that bias is significant. In other words, there is a significant bias in the forecast made for series two. 
+What should the business person do in this situation? Try and understand why the bias exists. In other words, why are the actuals significantly higher than our forecasts? Because acting on bias forecast is going to cause the company lots of problems. It might cause a company to make too much of a product and result in excess inventory.
+
