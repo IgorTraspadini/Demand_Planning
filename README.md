@@ -6,7 +6,7 @@ We'll start by exploring the nature of time series data with scatter plots and m
 Content:
 - [Visually Displaying Your Time-Series Data](VisuallyDisplaying.md)
 - [How Good Are Your Forecast? Errors, Accuracy, and Bias](ForecastQuality.md)
-- [Using a Trendline for Forecast]()
+- [Using a Trendline for Forecast](Trendline.md)
 - [Modeling Exponencial Growth and Compoud Annual Growth Rate (CAGR)]()
 - [Seasonality and the Ratio-to-Moving-Average Method]()
 - [Forecasting with Multiple Regressions]()
